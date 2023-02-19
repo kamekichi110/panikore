@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser</title>
+    <link rel="stylesheet" href="../../css/system.css">
+    <script src="./js/browser.js"></script>
+    <style>
+        header {
+            background-color: aquamarine;
+        }
+        iframe {
+            width: 98%;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <h3>URL</h3>
+            <input type="text" width="70%" name="url">
+            <input type="button" value="go!" onclick="url_go()">
+        </header>
+        <iframe src="./ui/index.html" frameborder="1px"></iframe>
+</body>
+</html>
