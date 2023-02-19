@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>html editor</title>
+  <title>css edit</title>
   <script>
     function save() {
       // テキストエリアより文字列を取得
@@ -15,13 +15,13 @@
       // ダウンロード用のaタグ生成
       const a = document.createElement('a');
       a.href =  URL.createObjectURL(blob);
-      a.download = 'index.html';
+      a.download = 'style.css';
       a.click();
     };
   </script>
 </head>
 <body>
-    <h1>html editor</h1>
+    <h1>css editor</h1>
   <button onclick="save();">Save Text</button>
   <br />
   <textarea id="txt" cols="98%" rows="500"></textarea>
