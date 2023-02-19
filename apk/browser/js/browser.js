@@ -4,5 +4,5 @@ function url_go() {
 }
 function home() {
     var url = document.getElementById('url');
-    browser.location = ;
+    browser.location = "https://kamekichi110.github.io/sys.sirokuma.os/apk/browser/ui/index.html";
 }
