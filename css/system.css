@@ -6,3 +6,7 @@ body {
     background-color: lightblue;
     font-family: system;
 }
+iframe {
+    width: 98%;
+    height: 80%;
+}
